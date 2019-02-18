@@ -5,10 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Learn REST API</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <div>
       <h1>Learn REST API</h1>
+
+      <div id="user" class="user">
+        <h2 id="user-username">{username}</h2>
+        <p>
+          <img
+            id="user-avatar"
+            class="avatar"
+            src="user-avatar.png"
+            alt="user-username"
+          />
+        </p>
+        <p>
+          <a id="user-url" href="http://user-url.com">user-url</a>
+        </p>
+      </div>
+
+      <pre id="data">
+        <!-- DATA -->
+        <span>LOADING...</span>
+      </pre>
     </div>
 
     <script src="../node_modules/axios/dist/axios.min.js"></script>
