@@ -1,0 +1,13 @@
+{
+  "name": "learn-rest-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.18.0"
+  },
+  "scripts": {
+    "start:web": "live-server web",
+    "start:server": "node server"
+  }
+}
