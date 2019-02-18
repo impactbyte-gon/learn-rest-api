@@ -7,7 +7,10 @@
     "axios": "0.18.0"
   },
   "scripts": {
-    "start:web": "live-server web",
+    "start:web": "live-server",
     "start:server": "node server"
+  },
+  "devDependencies": {
+    "live-server": "1.2.1"
   }
 }
